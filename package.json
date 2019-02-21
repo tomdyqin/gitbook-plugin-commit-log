@@ -1,0 +1,36 @@
+{
+  "author": {
+    "email": "cuoreqzt@126.com",
+    "name": "tomdy"
+  },
+  "bugs": {
+    "url": "https://github.com/tomdyqin/gitbook-plugin-anchors-pinyin/issues"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "github-slugid": "1.0.1",
+    "simple-pinyin": "3.0.2"
+  },
+  "description": "Add Github style heading anchors to your Gitbook",
+  "devDependencies": {},
+  "directories": {},
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "homepage": "https://github.com/tomdyqin/gitbook-plugin-anchors-pinyin",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "cuoreqzt@126.com",
+      "name": "tomdy"
+    }
+  ],
+  "name": "gitbook-plugin-anchors-pinyin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdyqin/gitbook-plugin-anchors-pinyin.git"
+  },
+  "scripts": {},
+  "version": "0.0.1"
+}
