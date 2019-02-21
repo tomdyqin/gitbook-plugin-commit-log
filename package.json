@@ -4,20 +4,25 @@
     "name": "tomdy"
   },
   "bugs": {
-    "url": "https://github.com/tomdyqin/gitbook-plugin-anchors-pinyin/issues"
+    "url": "https://github.com/tomdyqin/gitbook-plugin-commit-log/issues"
   },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "git",
+    "commit",
+    "log"
+  ],
   "dependencies": {
-    "cheerio": "*",
-    "github-slugid": "1.0.1",
-    "simple-pinyin": "3.0.2"
+    "simple-git": "^1.112.0"
   },
-  "description": "Add Github style heading anchors to your Gitbook",
+  "description": "show git log on Gitbook",
   "devDependencies": {},
   "directories": {},
   "engines": {
     "gitbook": ">=2.5.0"
   },
-  "homepage": "https://github.com/tomdyqin/gitbook-plugin-anchors-pinyin",
+  "homepage": "https://github.com/tomdyqin/gitbook-plugin-commit-log",
   "license": "Apache-2.0",
   "main": "index.js",
   "maintainers": [
@@ -26,10 +31,10 @@
       "name": "tomdy"
     }
   ],
-  "name": "gitbook-plugin-anchors-pinyin",
+  "name": "gitbook-plugin-commit-log",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomdyqin/gitbook-plugin-anchors-pinyin.git"
+    "url": "git+https://github.com/tomdyqin/gitbook-plugin-commit-log.git"
   },
   "scripts": {},
   "version": "0.0.1"
