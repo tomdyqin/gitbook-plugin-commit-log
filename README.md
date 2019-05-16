@@ -10,7 +10,7 @@ Add the plugin to your `book.json`:
 	"plugins" : [ "commit-log" ]
 	"pluginsConfig": {
 		templateHead: "## 文档记录\n|Author|Date|History|\n|:--:|:--:|:--:|"
-		templateBody: "|<p class="plugin-commit-log__name"><img src="http://xxx.com/{{name}}/avatar.jpg" class="plugin-commit-log__avatar">{{name}}</p>|${date}|{{msg}}|"
+  		"templateBody": "|<img src='http://xxx/avatars/{{name}}/avatar.jpg' class='plugin-commit-log__avatar'><span class='plugin-commit-log__name'>{{name}}</span>|{{date}}|"
 	}
 }		
 ```

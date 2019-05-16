@@ -1,6 +1,7 @@
 .plugin-commit-log__name{
-    text-align: left;
-    padding-left: 50px
+    display:inline-block;
+    min-width:6em;
+    text-align:left;
 }
 
 .plugin-commit-log__avatar {
