@@ -37,5 +37,5 @@
     "url": "git+https://github.com/tomdyqin/gitbook-plugin-commit-log.git"
   },
   "scripts": {},
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
