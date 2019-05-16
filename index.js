@@ -26,7 +26,7 @@ module.exports = {
                 if (!isRepo) {
                     return page;
                 }
-                page.content += `\n${templateHead}\n`;
+                page.content += `\n\n${templateHead}\n`;
                 const result = await git.log([page.rawPath]);
 
                 for (const logLine of result.all) {
